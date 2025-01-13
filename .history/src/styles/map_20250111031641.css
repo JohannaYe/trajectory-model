@@ -1,9 +1,0 @@
-.marker {
-  cursor: pointer;
-  transform-origin: bottom;
-  transition: transform 0.3s ease;
-}
-
-.marker:hover {
-  transform: scale(1.2);
-} 

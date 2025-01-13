@@ -1,0 +1,129 @@
+.tourist-profiles-panel {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.tourist-profiles-panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.tourist-profiles-panel h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+.search-filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.search-filters input,
+.search-filters select {
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  flex: 1;
+  min-width: 200px;
+  transition: all 0.2s ease;
+}
+
+.search-filters input:focus,
+.search-filters select:focus {
+  border-color: #27ae60;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(39, 174, 96, 0.2);
+}
+
+.profile-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: #27ae60;
+}
+
+.profile-card h3 {
+  color: #27ae60;
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.profile-card p {
+  color: #576574;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.visited-spots {
+  margin-top: 20px;
+}
+
+.visited-spots h4 {
+  color: #34495e;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.visited-spots ul {
+  list-style: none;
+  padding: 0;
+}
+
+.visited-spots li {
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  color: #576574;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.visited-spots li:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .tourist-profiles-panel {
+    padding: 16px;
+  }
+  
+  .search-filters {
+    flex-direction: column;
+  }
+  
+  .search-filters input,
+  .search-filters select {
+    width: 100%;
+  }
+}

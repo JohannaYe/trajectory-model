@@ -1,0 +1,122 @@
+.overview-panel {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.overview-panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.overview-panel h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+.static-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.key-stats, .top-attractions {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.key-stats h3, .top-attractions h3 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.key-stats ul, .top-attractions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.key-stats li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  color: #576574;
+  font-size: 1.1rem;
+}
+
+.key-stats li:last-child {
+  border-bottom: none;
+}
+
+.top-attractions li {
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  color: #576574;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+
+.top-attractions li:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+}
+
+.dynamic-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.weather-traffic, .visitor-heatmap {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.weather-traffic h3, .visitor-heatmap h3 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.visitor-stats {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.visitor-stats h3 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .static-info,
+  .dynamic-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .overview-panel {
+    padding: 16px;
+  }
+}

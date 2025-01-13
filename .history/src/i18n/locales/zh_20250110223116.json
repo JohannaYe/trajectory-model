@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "鼓浪屿游客轨迹",
+    "introduction": "简介",
+    "modeling": "建模",
+    "simulation": "生成",
+    "evaluation": "评估",
+    "knowledgeBase": "知识库"
+  },
+  "footer": {
+    "home": "首页",
+    "contact": "联系方式",
+    "terms": "条款",
+    "privacy": "隐私政策"
+  },
+  "home": {
+    "title": "鼓浪屿游客轨迹可视化系统",
+    "description": "欢迎使用鼓浪屿游客轨迹可视化系统，这是一个用于分析和展示游客在鼓浪屿旅游行为的综合平台。"
+  },
+  "introduction": {
+    "title": "项目简介",
+    "overview": "项目概述",
+    "background": "研究背景",
+    "objectives": "研究目标"
+  },
+  "modeling": {
+    "title": "建模分析",
+    "dataPreparation": "数据准备",
+    "modelStructure": "模型结构",
+    "parameters": "参数设置"
+  },
+  "simulation": {
+    "title": "模拟分析",
+    "settings": "模拟设置",
+    "results": "模拟结果",
+    "analysis": "结果分析"
+  },
+  "evaluation": {
+    "title": "评估分析",
+    "metrics": "评估指标",
+    "performance": "性能分析",
+    "recommendations": "改进建议"
+  },
+  "knowledgeBase": {
+    "title": "知识库",
+    "search": "搜索",
+    "filter": "筛选",
+    "categories": "分类",
+    "dataSource": "数据来源",
+    "touristProfiles": "游客画像",
+    "queryPlaceholder": "输入关键词搜索...",
+    "noResults": "没有找到相关结果",
+    "loading": "加载中..."
+  }
+}

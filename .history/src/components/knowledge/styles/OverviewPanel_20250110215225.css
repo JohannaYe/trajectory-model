@@ -1,0 +1,37 @@
+.overview-panel {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-info {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.weather-traffic,
+.visitor-heatmap {
+  flex: 1;
+  min-width: 300px;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.visitor-stats {
+  margin-top: 20px;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 确保图表容器居中显示 */
+.recharts-wrapper {
+  margin: 0 auto;
+}

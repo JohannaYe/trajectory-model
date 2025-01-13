@@ -1,0 +1,120 @@
+.announcements-panel {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.announcements-panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.announcements-panel h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #9b59b6;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+.announcements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.announcement {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #9b59b6;
+}
+
+.announcement.urgent {
+  border-left: 4px solid #e74c3c;
+  background: linear-gradient(to right, rgba(231, 76, 60, 0.05), white);
+}
+
+.announcement:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  color: #9b59b6;
+  font-size: 1.5rem;
+}
+
+.urgent .announcement-icon {
+  color: #e74c3c;
+}
+
+.announcement-content {
+  flex: 1;
+}
+
+.announcement-content h3 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.announcement-content p {
+  color: #576574;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.announcement-content .date {
+  color: #95a5a6;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.timeline {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.timeline h3 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .announcements-panel {
+    padding: 16px;
+  }
+  
+  .announcement {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .announcement-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}

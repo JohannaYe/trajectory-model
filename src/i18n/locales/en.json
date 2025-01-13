@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Gulangyu Tourist Trajectory",
+    "introduction": "Introduction",
+    "modeling": "Modeling",
+    "simulation": "Simulation",
+    "evaluation": "Evaluation",
+    "knowledgeBase": "Knowledge Base"
+  },
+  "footer": {
+    "home": "Home",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy Policy"
+  },
+  "home": {
+    "title": "Gulangyu Tourist Trajectory Visualization System",
+    "description": "Welcome to the Gulangyu Tourist Trajectory Visualization System, a comprehensive platform for analyzing and visualizing tourist behavior in Gulangyu."
+  },
+  "introduction": {
+    "title": "Project Introduction",
+    "overview": "Project Overview",
+    "background": "Research Background",
+    "objectives": "Research Objectives"
+  },
+  "modeling": {
+    "title": "Modeling Analysis",
+    "dataPreparation": "Data Preparation",
+    "modelStructure": "Model Structure",
+    "parameters": "Parameter Settings"
+  },
+  "simulation": {
+    "title": "Simulation Analysis",
+    "settings": "Simulation Settings",
+    "results": "Simulation Results",
+    "analysis": "Results Analysis"
+  },
+  "evaluation": {
+    "title": "Evaluation Analysis",
+    "metrics": "Evaluation Metrics",
+    "performance": "Performance Analysis",
+    "recommendations": "Recommendations"
+  },
+  "knowledgeBase": {
+    "title": "Knowledge Base",
+    "search": "Search",
+    "filter": "Filter",
+    "categories": "Categories",
+    "dataSource": "Data Source",
+    "touristProfiles": "Tourist Profiles",
+    "queryPlaceholder": "Enter keywords to search...",
+    "noResults": "No results found",
+    "loading": "Loading..."
+  }
+}

@@ -83,8 +83,8 @@ const KnowledgeBase: React.FC = () => {
         transition={{ duration: 0.5 }}
       >
         <OverviewPanel />
-        <DataSourcesPanel />x
-        
+        <DataSourcesPanel />
+
       </motion.div>
 
       <motion.div 

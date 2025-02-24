@@ -67,7 +67,7 @@ function Header() {
             <NavLink 
               key={item.path}
               to={item.path}
-              active={location.pathname === item.path}
+              className={({ isActive }) => isActive ? 'active' : undefined}
             >
               {item.label}
             </NavLink>

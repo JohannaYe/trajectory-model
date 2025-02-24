@@ -22,4 +22,15 @@ export interface EvaluationMetrics {
   diversity: number;
   realism: number;
   consistency: number;
+}
+
+interface ChatMessage {
+  type: 'user' | 'ai';
+  content: string;
+  timestamp: Date;
+}
+
+interface TrajectoryData {
+  points: [number, number][];
+  color?: string;
 } 

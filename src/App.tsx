@@ -8,6 +8,7 @@ import Modeling from './pages/Modeling';
 import Simulation from './pages/Simulation';
 import Evaluation from './pages/Evaluation';
 import KnowledgeBase from './pages/KnowledgeBase';
+import ChatSection from './components/ChatSection';
 import 'antd/dist/reset.css'; // Import Ant Design styles
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="simulation" element={<Simulation />} />
           <Route path="evaluation" element={<Evaluation />} />
           <Route path="knowledge-base" element={<KnowledgeBase />} />
+          <Route path="chat" element={<ChatSection />} />
         </Route>
       </Routes>
     </Router>

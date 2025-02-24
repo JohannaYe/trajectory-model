@@ -5,6 +5,7 @@ import Modeling from '../pages/Modeling';
 import Simulation from '../pages/Simulation';
 import Evaluation from '../pages/Evaluation';
 import KnowledgeBase from '../pages/KnowledgeBase';
+import ChatSection from '../components/ChatSection';
 
 export const router = createBrowserRouter([
   {
@@ -30,5 +31,9 @@ export const router = createBrowserRouter([
   {
     path: '/knowledge-base',
     element: <KnowledgeBase />,
+  },
+  {
+    path: '/chat',
+    element: <ChatSection />,
   }
 ]); 
